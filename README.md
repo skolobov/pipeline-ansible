@@ -1,7 +1,5 @@
 # [pipeline-ansible](https://github.com/skolobov/pipeline-ansible)
 
-[![Docker Repository on Quay](https://quay.io/repository/skolobov/pipeline-ansible/status "Docker Repository on Quay")](https://quay.io/repository/skolobov/pipeline-ansible)
-
 Ansible and related linters for use in CI/CD pipelines:
 * [Ansible](https://www.ansible.com/)
 * [Ansible-lint](https://github.com/ansible/ansible-lint)
@@ -14,10 +12,10 @@ The image also contains additional tools:
 * [Rsync](https://rsync.samba.org/)
 * [Git](https://git-scm.com/)
 
-Docker image is built and hosted by [Quay.io](https://quay.io/repository/skolobov/pipeline-ansible)
+Docker image is built and hosted by [Docker Hub](https://hub.docker.com/r/skolobov/pipeline-ansible)
 
 ```
-docker pull quay.io/skolobov/pipeline-ansible
+docker pull skolobov/pipeline-ansible:latest
 ```
 
 Author: [Sergei Kolobov](https://github.com/skolobov)
